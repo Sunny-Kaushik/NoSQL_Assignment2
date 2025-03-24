@@ -1,0 +1,24 @@
+1. Before running make sure to delete the "output" directory in "D", if it already exists.
+2. Before Running make sure to put the "Wikipedia-EN-20120601_ARTICLES" directory in the root directory.
+
+=> Go to "D" directory and run:
+
+=> hadoop jar prob_4_d.jar MapclassPairs ../Wikipedia-EN-20120601_ARTICLES ./output/map_class_pairs/d1 ../A/top50.txt -d 1
+=> hadoop jar prob_4_d.jar MapclassPairs ../Wikipedia-EN-20120601_ARTICLES ./output/map_class_pairs/d2 ../A/top50.txt -d 2
+=> hadoop jar prob_4_d.jar MapclassPairs ../Wikipedia-EN-20120601_ARTICLES ./output/map_class_pairs/d3 ../A/top50.txt -d 3
+=> hadoop jar prob_4_d.jar MapclassPairs ../Wikipedia-EN-20120601_ARTICLES ./output/map_class_pairs/d4 ../A/top50.txt -d 4
+
+=> hadoop jar prob_4_d.jar MapclassStripe ../Wikipedia-EN-20120601_ARTICLES ./output/map_class_stripe/d1 ../A/top50.txt -d 1
+=> hadoop jar prob_4_d.jar MapclassStripe ../Wikipedia-EN-20120601_ARTICLES ./output/map_class_stripe/d2 ../A/top50.txt -d 2
+=> hadoop jar prob_4_d.jar MapclassStripe ../Wikipedia-EN-20120601_ARTICLES ./output/map_class_stripe/d3 ../A/top50.txt -d 3
+=> hadoop jar prob_4_d.jar MapclassStripe ../Wikipedia-EN-20120601_ARTICLES ./output/map_class_stripe/d4 ../A/top50.txt -d 4
+
+=> hadoop jar prob_4_d.jar MapfunctionPairs ../Wikipedia-EN-20120601_ARTICLES ./output/map_function_pairs/d1 ../A/top50.txt -d 1
+=> hadoop jar prob_4_d.jar MapfunctionPairs ../Wikipedia-EN-20120601_ARTICLES ./output/map_function_pairs/d2 ../A/top50.txt -d 2
+=> hadoop jar prob_4_d.jar MapfunctionPairs ../Wikipedia-EN-20120601_ARTICLES ./output/map_function_pairs/d3 ../A/top50.txt -d 3
+=> hadoop jar prob_4_d.jar MapfunctionPairs ../Wikipedia-EN-20120601_ARTICLES ./output/map_function_pairs/d4 ../A/top50.txt -d 4
+
+=> hadoop jar prob_4_d.jar MapfunctionStripe ../Wikipedia-EN-20120601_ARTICLES ./output/map_function_stripe/d1 ../A/top50.txt -d 1
+=> hadoop jar prob_4_d.jar MapfunctionStripe ../Wikipedia-EN-20120601_ARTICLES ./output/map_function_stripe/d2 ../A/top50.txt -d 2
+=> hadoop jar prob_4_d.jar MapfunctionStripe ../Wikipedia-EN-20120601_ARTICLES ./output/map_function_stripe/d3 ../A/top50.txt -d 3
+=> hadoop jar prob_4_d.jar MapfunctionStripe ../Wikipedia-EN-20120601_ARTICLES ./output/map_function_stripe/d4 ../A/top50.txt -d 4

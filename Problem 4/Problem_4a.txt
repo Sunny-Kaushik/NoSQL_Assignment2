@@ -1,0 +1,7 @@
+1. Before running make sure to delete the "output" directory in "A", if it already exists.
+2. Before Running make sure to put the "Wikipedia-EN-20120601_ARTICLES" directory in the root directory.
+
+=> Go to "A" directory and run:
+
+=> hadoop jar prob_4_a.jar WordCuont2 ../Wikipedia-EN-20120601_ARTICLES ./output -skippaterns ../stopwords.txt
+=> java -cp prob_4_a.jar Extract50 ./output/part-r-00000 ./top50.txt

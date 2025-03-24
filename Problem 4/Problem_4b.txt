@@ -1,0 +1,10 @@
+1. Before running make sure to delete the "output" directory in "B", if it already exists.
+2. Before Running make sure to put the "Wikipedia-EN-20120601_ARTICLES" directory in the root directory.
+
+=> Go to "B" directory and run:
+
+=> hadoop jar prob_4_b.jar Coocurringpairs ../Wikipedia-EN-20120601_ARTICLES ./output/d1 ../A/top50.txt -d 1
+=> hadoop jar prob_4_b.jar Coocurringpairs ../Wikipedia-EN-20120601_ARTICLES ./output/d2 ../A/top50.txt -d 2
+=> hadoop jar prob_4_b.jar Coocurringpairs ../Wikipedia-EN-20120601_ARTICLES ./output/d3 ../A/top50.txt -d 3
+=> hadoop jar prob_4_b.jar Coocurringpairs ../Wikipedia-EN-20120601_ARTICLES ./output/d4 ../A/top50.txt -d 4
+
